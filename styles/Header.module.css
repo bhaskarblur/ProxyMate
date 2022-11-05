@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+.container{
+    background-color: #202728;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+    padding-bottom: .3rem;
+}
+
+.Nav{
+    display: flex;
+}
+
+.leftNav{
+    display: flex;
+}
+
+.logoText{
+    font-size: 1.6rem;
+    letter-spacing: 0.02rem;
+    
+    color: #29E4E4;
+    margin-top: 1.5rem;
+}
+
+
+
+.searchBg{
+    display: flex;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    margin-left: 2.6rem;
+    background-color: #2C3637;
+    border: .3px solid #6A6A6A;
+    width: 380px;
+    height: 50px;
+    border-radius: 60px;
+}
+.searchBg:hover{
+    background-color: #374344;
+    transition: 200ms;
+}
+.searchIcon{
+    margin-top: .7rem;
+    
+}
+.searchText{
+    margin-top: .7rem;
+    margin-left: .7rem;
+    font-size: 1.12rem;
+    font-weight: 400;
+    color: #727479;
+    
+}
+
+.rightNav{
+    display: flex;
+    margin-left: auto;
+}
+
+.buttonList{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.buttonListLi{
+    cursor: pointer;
+    display: flex;
+    border-radius: 60px;
+    background-color: #2C3637;
+    padding: .2rem 1.4rem;
+    gap: .8rem;
+}
+
+.buttonListLi:hover{
+    background-color: #374344;
+    transition: 200ms;
+}
+.buttonIcon{
+    margin-top: .55rem;
+
+}
+.buttonText{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #F1F1F1;
+    margin-top: .55rem;
+    margin-bottom: .7rem;
+    letter-spacing: 0.02rem;
+    
+}
+
+.avatarDiv{
+    margin-left: 1.4rem;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.arrowIcon{
+    margin-top: .7rem;
+}

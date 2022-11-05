@@ -1,0 +1,50 @@
+.container{
+    background-color: #202728;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 2rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.Footer{
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    gap: 4rem;
+    padding-bottom: 2.2rem;
+}
+
+.logoText{
+
+    font-size: 1.8rem;
+    letter-spacing: 0.02rem;
+    color: #f1f1f1;
+    font-weight: 700;
+    margin-top: .5rem;
+}
+.aboutText{
+    width: 800px;
+    color: #727479;
+    font-weight: 400;
+}
+
+.footerList{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: -.5rem;
+}
+
+.footerListLi{
+    cursor: pointer;
+    text-align: center;
+    color: #f1f1f1;
+    margin-right: 2rem;
+}

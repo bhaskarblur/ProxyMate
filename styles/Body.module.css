@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+.container{
+    background-color: #202728;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 2rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.Body{
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    gap: 4rem;
+    padding-bottom: 2.2rem;
+}
+
+.leftBody{
+display: block;
+}
+.profileImage{
+    border-radius: 1rem;
+}
+
+.rightBody{
+    display: block;
+    width: auto;
+}
+
+.descriptionDiv{
+   margin-top: 2rem;
+}
+.profileName{
+    font-size: 1.6rem;
+}
+
+.profileAbout{
+    font-weight: 400;
+    color: #727479;
+    width: 420px;
+    margin-top: -2%;
+    font-size: 1.2rem;
+    
+}
+
+.interestsHead{
+    color: #727479;
+}
+
+.artistList{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 5rem 5rem;
+    margin-left: -22%;
+}
+
+.artistListLi{
+    display: flex;
+    margin-left: 1rem;
+    margin-bottom: .6rem;
+}
+
+.interestDiv{
+    margin-top: 2rem;
+}
+
+.interestList{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    margin-left: -20%;
+}
+
+.interestListLi{
+
+    display: block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 60px;
+    text-align: center;
+    height: 50px;
+    background-color: #2C3637;
+    padding: .1rem .7rem;
+}
+
+.interestText{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 11%;
+ 
+}
+.CtaDiv{
+    display: block;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.buttonBg1{
+    cursor: pointer;
+    display: flex;
+    width: 180px;
+    margin-bottom: 1.2rem;
+    border-radius: 60px;
+    text-align: center;
+    background-color: #0eb1b1;
+    justify-content: center;
+    padding: .4rem .8rem;
+}
+.buttonBg1:hover{
+    background-color: #19c9c9;
+    transition: 200ms;
+
+}
+
+.buttonBg2:hover{
+    background-color: #374344;
+    transition: 200ms;
+
+}
+
+.buttonBg2{
+    cursor: pointer;
+    display: flex;
+    width: 180px;
+    margin-bottom: 1rem;
+    border-radius: 60px;
+
+    text-align: center;
+    background-color: #2C3637;
+    padding: .4rem .8rem;
+    justify-content: center;
+}
+.buttonIcon{
+    margin-top: .8rem;
+    margin-left: .4rem;
+
+}
+.buttonText{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #F1F1F1;
+    margin-left: .8rem;
+    margin-top: .55rem;
+    margin-bottom: .7rem;
+    letter-spacing: 0.02rem;
+    
+}
